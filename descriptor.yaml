@@ -3,4 +3,6 @@ description: This is an example of an Entando bundle
 components:
   widgets:
     - widgets/example-widget.yaml
+  plugins:
+    - plugins/microservice.yaml
  

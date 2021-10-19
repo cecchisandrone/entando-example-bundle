@@ -1,0 +1,5 @@
+image: "cecchisandrone/entando-bundle-seed-ms-springboot-kc:0.0.1-SNAPSHOT"
+dbms: none
+healthCheckPath: "/actuator/health"
+roles: # The roles the plugin will expose in keycloak
+  - "task-list"
